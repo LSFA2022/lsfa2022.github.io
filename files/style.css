@@ -643,6 +643,10 @@ a:focus .speaker{
   margin:0px 0px 0px;
 }
 
+.speaker .speaker-content>h2+h3+h3 {
+  margin:0px 0px 0px;
+}
+
 .speaker .speaker-contentg>h2+h2 {
   margin:0px 0px 0px;
 }
@@ -656,6 +660,11 @@ a:focus .speaker{
 }
 
 .speaker .speaker-content>h3 {
+  color: #FFF;
+  font-size:16px;
+}
+
+.speaker .speaker-contentg>h3 {
   color: #FFF;
   font-size:16px;
 }
@@ -1076,10 +1085,6 @@ color: #dd0a37;
 }
 
 
-#program .speaker .speaker-content > h3 {
-    font-size: 20px;
-        
-}
 
 #program .speaker-modal .modal-body{
     padding: 10px;
