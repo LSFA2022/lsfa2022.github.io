@@ -1029,7 +1029,7 @@ color: #dd0a37;
 }
 
 #program .card{
-    width: 32%;
+    width: 48%;
     border: solid;
     display: flex;
     margin-left: 5px;
@@ -1071,6 +1071,7 @@ color: #dd0a37;
     font-weight: bold;
 }
 #program .schedule ul li .event-hour{
+    font-family: 'Courier New';
     text-align: center;
 	padding-left: 0px;
     word-wrap: break-word;
